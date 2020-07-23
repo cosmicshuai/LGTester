@@ -1,7 +1,6 @@
 import {Templates} from 'botbuilder-lg';
 
-const templates = Templates.parseFile('data/a.lg');
-const templateName = templates.allTemplates[0].name;
-const result = templates.evaluate(templateName);
+const templates = Templates.parseFile('data/generator.lg');
+const result = templates.evaluate('roles');
 
 console.log(result);

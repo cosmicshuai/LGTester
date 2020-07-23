@@ -1,2 +1,5 @@
-# test
-- hello world!
+# roles
+- IF: ${role}
+    - hasRole ${role}
+- ELSE:
+    -

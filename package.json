@@ -4,14 +4,16 @@
   "description": "A framework to test LG files.",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node build/test.js"
+    "start": "tsc && node build/test.js",
+    "test": "tsc && node build/test_expr.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cosmicshuai/LGTester.git"
   },
   "dependencies": {
-    "botbuilder-lg": "^4.10.0-preview-148939"
+    "botbuilder-lg": "^4.10.0-preview-148939",
+    "adaptive-expressions": "^4.10.0-preview-148939"
   },
   "devDependencies": {
     "@types/node": "^10.12.18",
