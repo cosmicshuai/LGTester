@@ -1,0 +1,27 @@
+{
+  "name": "lgtester",
+  "version": "0.1.0",
+  "description": "A framework to test LG files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmicshuai/LGTester.git"
+  },
+  "dependencies": {
+    "botbuilder-lg": "^4.10.0-preview-148939"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "ts-node": "^4.1.0",
+    "typescript": "3.5.3"
+  },
+  "author": "Shuai Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmicshuai/LGTester/issues"
+  },
+  "homepage": "https://github.com/cosmicshuai/LGTester#readme"
+}

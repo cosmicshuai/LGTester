@@ -1,0 +1,8 @@
+# Blanket ignore zip files
+# Related to Teams Scenarios work
+*.zip
+*.vscode
+
+#ignored directories
+/node_modules
+/build
