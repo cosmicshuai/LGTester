@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "botbuilder-lg": "^4.10.0-preview-148939",
-    "adaptive-expressions": "^4.10.0-preview-148939"
+    "adaptive-expressions": "^4.10.0-preview-148939",
+    "adaptivecards":"2.0.0"
   },
   "devDependencies": {
     "@types/node": "^10.12.18",
